@@ -1,173 +1,37 @@
----
-icon: lucide/rocket
----
+# ExELang Consortium Information Booklet
 
-# Get started
+Welcome to the ExELang Consortium Information Booklet. This document is intended for corpus collectors, institutional review boards, legal and compliance departments, and scientific archives. It describes how the ExELang Consortium works: who can do what with the data, under what conditions, and who is responsible for what.
 
-For full documentation visit [zensical.org](https://zensical.org/docs/).
+## Introduction
 
-## Commands
+All parties interacting with the ExELang Consortium must be aware of its governance framework, data access policies, and publication rules.
 
-* [`zensical new`][new] - Create a new project
-* [`zensical serve`][serve] - Start local web server
-* [`zensical build`][build] - Build your site
+### What is the ExELang Consortium?
 
-  [new]: https://zensical.org/docs/usage/new/
-  [serve]: https://zensical.org/docs/usage/preview/
-  [build]: https://zensical.org/docs/usage/build/
+The ExELang Consortium is a research consortium through which corpus collectors grant a small group of researchers — called custodians — access to raw audio recordings for the purpose of model development and benchmarking. The current custodians are Okko Räsänen (Tampere University), Marvin Lavechin, and Sho Tsuji.
 
-## Examples
+### Data Archives
 
-### Admonitions
+All data shared through the ExELang Consortium must be deposited in one of three recognized scientific archives: [HomeBank](https://homebank.talkbank.org), [Databrary](https://databrary.org), or [The Language Archive](https://archive.mpi.nl). These archives provide the legal and ethical framework governing all data access. Corpus collectors and custodians must comply with the relevant archive agreement:
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/)
+- [HomeBank User Agreement](https://talkbank.org/0share/irb/index.html)
+- [Databrary Access Agreement](https://databrary.org/about/policies/terms)
+- [The Language Archive Terms of Use](https://archive.mpi.nl/tla/terms-of-use)
 
-!!! note
+### Data Usage
 
-    This is a **note** admonition. Use it to provide helpful information.
+Custodian access to corpus collector data is restricted to the development, training, evaluation, and benchmarking of automated speech and language processing models. Any other use requires prior consultation with the corpus collector.
 
-!!! warning
+### Authorship and Attribution
 
-    This is a **warning** admonition. Be careful!
+Corpus collectors retain ownership of their data at all times. Their datasets will be formally cited in all publications using them. For research beyond model development and benchmarking, corpus collectors will be notified and offered the option to withdraw their data or join as co-authors.
 
-### Details
+## Contents
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
-
-??? info "Click to expand for more info"
-
-    This content is hidden until you click to expand it.
-    Great for FAQs or long explanations.
-
-## Code Blocks
-
-> Go to [documentation](https://zensical.org/docs/authoring/code-blocks/)
-
-``` python hl_lines="2" title="Code blocks"
-def greet(name):
-    print(f"Hello, {name}!") # (1)!
-
-greet("Python")
-```
-
-1.  > Go to [documentation](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
-
-    Code annotations allow to attach notes to lines of code.
-
-Code can also be highlighted inline: `#!python print("Hello, Python!")`.
-
-## Content tabs
-
-> Go to [documentation](https://zensical.org/docs/authoring/content-tabs/)
-
-=== "Python"
-
-    ``` python
-    print("Hello from Python!")
-    ```
-
-=== "Rust"
-
-    ``` rs
-    println!("Hello from Rust!");
-    ```
-
-## Diagrams
-
-> Go to [documentation](https://zensical.org/docs/authoring/diagrams/)
-
-``` mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
-
-## Footnotes
-
-> Go to [documentation](https://zensical.org/docs/authoring/footnotes/)
-
-Here's a sentence with a footnote.[^1]
-
-Hover it, to see a tooltip.
-
-[^1]: This is the footnote.
-
-
-## Formatting
-
-> Go to [documentation](https://zensical.org/docs/authoring/formatting/)
-
-- ==This was marked (highlight)==
-- ^^This was inserted (underline)^^
-- ~~This was deleted (strikethrough)~~
-- H~2~O
-- A^T^A
-- ++ctrl+alt+del++
-
-## Icons, Emojis
-
-> Go to [documentation](https://zensical.org/docs/authoring/icons-emojis/)
-
-* :sparkles: `:sparkles:`
-* :rocket: `:rocket:`
-* :tada: `:tada:`
-* :memo: `:memo:`
-* :eyes: `:eyes:`
-
-## Maths
-
-> Go to [documentation](https://zensical.org/docs/authoring/math/)
-
-$$
-\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
-$$
-
-!!! warning "Needs configuration"
-    Note that MathJax is included via a `script` tag on this page and is not
-    configured in the generated default configuration to avoid including it
-    in a pages that do not need it. See the documentation for details on how
-    to configure it on all your pages if they are more Maths-heavy than these
-    simple starter pages.
-
-<script id="MathJax-script" src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [["\\(", "\\)"]],
-      displayMath: [["\\[", "\\]"]],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      ignoreHtmlClass: ".*|",
-      processHtmlClass: "arithmatex"
-    }
-  };
-
-  document$.subscribe(() => {
-    MathJax.startup.output.clearCache()
-    MathJax.typesetClear()
-    MathJax.texReset()
-    MathJax.typesetPromise()
-  })
-</script>
-
-## Task Lists
-
-> Go to [documentation](https://zensical.org/docs/authoring/lists/#using-task-lists)
-
-* [x] Install Zensical
-* [x] Configure `zensical.toml`
-* [x] Write amazing documentation
-* [ ] Deploy anywhere
-
-## Tooltips
-
-> Go to [documentation](https://zensical.org/docs/authoring/tooltips/)
-
-[Hover me][example]
-
-  [example]: https://example.com "I'm a tooltip!"
+1. [Definitions](01_definitions.md)
+2. [How does the ExELang Consortium work?](02_how_it_works.md)
+3. [Data Security](03_data_security.md)
+4. [Rights and Responsibilities](04_rights_responsibilities.md)
+5. [Publication Rules](05_publication_rules.md)
+6. [Common Scenarios](06_common_scenarios.md)
+7. [FAQ](07_faq.md)
