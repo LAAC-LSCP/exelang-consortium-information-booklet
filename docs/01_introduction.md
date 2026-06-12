@@ -28,7 +28,7 @@ The current custodians are Okko Räsänen (Tampere University), Marvin Lavechin,
 | Name | Affiliation | Email | HomeBank handle | Databrary handle | TLA handle |
 |------|-------------|-------|-----------------|------------------|------------|
 | Okko Räsänen | Tampere University | okko.rasanen@tuni.fi | | | rasaneno@tuni.fi |
-| Marvin Lavechin | LIS, CNRS | | | | |
+| Marvin Lavechin | Laboratoire d’Informatique et Systèmes, Université Aix-Marseille, CNRS | marvin.lavechin@cnrs.fr| | | |
 | Sho Tsuji | LSCP, CNRS / ENS-PSL | sho.tsuji@ens.psl.eu | | | stsuji@ens.psl.eu |
 
 ## 1.4 Who are the corpus collectors?
