@@ -7,7 +7,7 @@
 
 - Retain ownership and managerial control of their dataset at all times.
 - Withdraw their dataset from the ExELang Consortium at any time by revoking custodian access through the relevant scientific archive.
-- Receive formal citation and acknowledgement in all publications using their data.
+- Receive formal citation and acknowledgement in all publications using their data. Note that for model development and benchmarking publications, citation does not imply co-authorship. 
 - Be informed of and offered participation in (or the right to withdraw from) any proposed use of their data beyond model development and benchmarking.
 - Negotiate bilateral agreements with custodians or other researchers that supplement or modify the baseline consortium terms (see [Section 5.3](05_publication_rules.md)).
 
