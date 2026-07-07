@@ -15,7 +15,7 @@ This document describes how the ExELang Consortium works: who can do what with w
 
 ## 1.1 Who is this booklet by and for?
 
-This booklet was initially drafted by members of the ExELang team but is maintained by the custodians, to whom questions or suggestions should be addressed. It is primarily intended for custodians and corpus collectors, as it aims to clearly spell out rights and responsibilities. New members of custodians' teams should read, in addition to the current booklet, the internal handbook. It can also be useful to inform institutional review boards, legal and compliance departments, and scientific archives.
+This booklet was initially drafted by members of the ExELang team but is maintained by the custodians, to whom questions or suggestions should be addressed. It is primarily intended for custodians and corpus collectors, as it aims to clearly spell out rights and responsibilities. New members of custodians' teams should read, in addition to the current booklet, the internal Custodian Handbook [the internal handbook](https://laac-lscp.github.io/custodian-handbook/). It can also be useful to inform institutional review boards, legal and compliance departments, and scientific archives.
 
 ## 1.2 Why was the ExELang Consortium created?
 
