@@ -11,7 +11,7 @@ This document describes how the ExELang Consortium works: who can do what with w
 | **ExELang Consortium** | Grouping corpus collectors and custodians, the consortium defines the rights and responsibilities of the two key parties, clarifies the links with other relevant parties, and complements the broad obligations set out by the scientific archives. |
 | **Scientific Archives** | Member datasets must be archived in one of three archives compatible with long-form audio recordings (HomeBank, Databrary, or the Language Archive), which provide a legal and ethical framework for data shared by the corpus collectors with the custodians. |
 | **ELSI** | A software platform providing a web interface and API for dataset management, model execution, and metric extraction. It is completely independent from both custodians and corpus collectors. |
-| **EL1000 Consortium** | A completely separate consortium governing the sharing of derived, deidentified metrics from language acquisition corpora (not raw audio). Custodians have no direct relationship with EL1000. Corpus collectors interested in joining EL1000 should visit XXX. |
+| **EL1000 Consortium** | A completely separate consortium governing the sharing of derived, deidentified metrics from language acquisition corpora (not raw audio). Custodians have no direct relationship with EL1000. Corpus collectors interested in joining EL1000 should follow the procedure [here]](https://osf.io/s53kq/wiki?wiki=pxn28).
 
 ## 1.1 Who is this booklet by and for?
 
