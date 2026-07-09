@@ -5,8 +5,8 @@
 The ExELang Consortium was designed by the ExELang team, with the basic set of rights and responsibilities drafted and shared among relevant parties. No explicit governance structure has been put in place. Should changes be made in the future (e.g., including additional custodians and/or corpus collectors; changing rights and responsibilities), changes will be proposed by the custodians and communicated to all corpus collectors via the consortium mailing list before being adopted.
 To facilitate communication, two mailing lists have been created:
 
--**To contact the custodians directly:** [exelangc-custodians@googlegroups.com]
--**To contact all corpus collectors and custodians:** [exelangc-all@googlegroups.com]
+-**To contact the custodians directly:**- [exelangc-custodians@googlegroups.com]
+-**To contact all corpus collectors and custodians:**- [exelangc-all@googlegroups.com]
 
 ## 2.2 The ExELang Consortium builds on Extant Archives
 
